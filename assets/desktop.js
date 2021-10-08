@@ -53,9 +53,9 @@ document.querySelector(".my-computer").ondblclick = function () {
     window.open("https://www.facebook.com/Le-Fond-Du-Baril-108565799223813")
 }
 
-document.querySelector(".my-network").ondblclick = function () {
+document.querySelector(".my-msn").ondblclick = function () {
     setTimeout( ()=> { this.classList.remove("selected") }, 2 )
-    window.open("https://www.facebook.com/photo/?fbid=27679084886&set=pob.612484886")
+    window.open("https://fouinkk.github.io/msn-window/")
 }
 
 document.querySelector(".my-network").ondblclick = function () {
