@@ -50,7 +50,7 @@ document.querySelector(".faisal-akhtar").ondblclick = function () {
 
 document.querySelector(".my-computer").ondblclick = function () {
     setTimeout( ()=> { this.classList.remove("selected") }, 2 )
-    window.open("https://www.facebook.com/leo.therrien2/videos")
+    window.open("https://www.facebook.com/william.s.berube/videos_by")
 }
 
 document.querySelector(".my-msn").ondblclick = function () {
