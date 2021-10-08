@@ -50,7 +50,7 @@ document.querySelector(".faisal-akhtar").ondblclick = function () {
 
 document.querySelector(".my-computer").ondblclick = function () {
     setTimeout( ()=> { this.classList.remove("selected") }, 2 )
-    window.open("https://www.facebook.com/Le-Fond-Du-Baril-108565799223813")
+    window.open("https://www.facebook.com/leo.therrien2/videos")
 }
 
 document.querySelector(".my-msn").ondblclick = function () {
