@@ -58,6 +58,11 @@ document.querySelector(".my-network").ondblclick = function () {
     window.open("https://www.facebook.com/photo/?fbid=27679084886&set=pob.612484886")
 }
 
+document.querySelector(".my-network").ondblclick = function () {
+    setTimeout( ()=> { this.classList.remove("selected") }, 2 )
+    window.open("https://www.facebook.com/photo/?fbid=27679084886&set=pob.612484886")
+}
+
 document.querySelector(".note-pad").ondblclick = function () {
     setTimeout( ()=> { this.classList.remove("selected") }, 2 )
     document.querySelector(".readme").style.display = "initial"
