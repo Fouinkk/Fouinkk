@@ -53,6 +53,11 @@ document.querySelector(".my-computer").ondblclick = function () {
     window.open("https://www.facebook.com/william.s.berube/videos_by")
 }
 
+document.querySelector(".my-diskette").ondblclick = function () {
+    setTimeout( ()=> { this.classList.remove("selected") }, 2 )
+    window.open("https://poki.com/en/g/bubble-trouble?campaign=13455702452&adgroup=125034418442&target=kwd-319865822301&location=9000256&creative=526722423315&placement=&gclid=Cj0KCQjw-4SLBhCVARIsACrhWLXGb6lbM5C7zZwPhvw44I8AGmsDawbqVSVkuSUdHshZvtX49KKpLfwaAgW6EALw_wcB")
+}
+
 document.querySelector(".my-msn").ondblclick = function () {
     setTimeout( ()=> { this.classList.remove("selected") }, 2 )
     window.open("https://fouinkk.github.io/msn-window/")
