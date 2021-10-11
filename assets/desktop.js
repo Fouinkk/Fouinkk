@@ -76,7 +76,7 @@ document.querySelector(".note-pad").ondblclick = function () {
     document.querySelector(".window").classList.remove("minimized")
 }
 
-document.querySelector("textarea").value = "Hey Hustlers!\n\nLe party commence ici !\n\nConsignes:\n\n- Afin d'obtenir les informations concernant le party 'FDB Fever', vous devrez aller sur MSN sporadiquement d'ici le 30 octobre.\n\n- Toutes les icônes sur le bureau vous donnent un accès à du contenu exclusif.\n\n\nEnjoy\n\n"
+document.querySelector("textarea").value = "Hey Hustlers!\n\nLe party commence ici !\n\nConsignes:\n\n- Afin d'obtenir les informations concernant le party 'FDB Fever', vous devrez aller sur MSN sporadiquement d'ici le 30 octobre.\n\n- Toutes les icônes sur le bureau vous donnent un accès à du contenu exclusif.\n\nEnjoy\n\nPS. Le Desktop a été créer par <a>href="https://faisalakhtar.github.io">Faisal Akhtar</a>"
 
 
 dragWindow(document.querySelector(".window"));
