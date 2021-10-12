@@ -76,7 +76,7 @@ document.querySelector(".note-pad").ondblclick = function () {
     document.querySelector(".window").classList.remove("minimized")
 }
 
-document.querySelector("textarea").value = "Hey Hustlers!\n\nAvant toute chose, nous tenons à vous mentionner qu'il faut être conscient qu'on est encore en temps de covid et par le fait même limité par des réglementations. Nous avons tout pris en compte afin de vous offrir le plus sick party tout en maximisant nos chances de ne pas avoir de problèmes judiciaires.\n\nCeci étant dit, le Party commence ici\n\nConsignes:\n\n- Afin d'obtenir les informations concernant le party, vous devrez aller sur MSN sporadiquement.\n\n- Toutes les icônes sur le bureau vous donnent un accès à du contenu exclusif.\n\nEnjoy\n\n"
+document.querySelector("textarea").value = "Hey Hustlers!\n\nAvant toute chose, nous tenons à vous mentionner qu'il faut être conscient qu'on est encore en temps de covid et par le fait même limité par des réglementations. Nous avons tout pris en compte afin de vous offrir un party trop séquel tout en maximisant nos chances de ne pas avoir de problèmes judiciaires.\n\nCeci étant dit, le Party commence ici\n\nConsignes:\n\n- Afin d'obtenir les informations concernant le party, vous devrez aller sur MSN sporadiquement.\n\n- Toutes les icônes sur le bureau vous donnent un accès à du contenu exclusif.\n\nEnjoy\n\n"
 
 
 dragWindow(document.querySelector(".window"));
