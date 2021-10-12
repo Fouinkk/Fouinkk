@@ -45,7 +45,7 @@ document.querySelector(".cls").onclick = function () {
 
 document.querySelector(".faisal-akhtar").ondblclick = function () {
     setTimeout( ()=> { this.classList.remove("selected") }, 2 )
-    window.open("https://www.facebook.com/Le-Fond-Du-Baril-108565799223813")
+    window.open("https://www.facebook.com/Le-Fond-Du-Baril-108565799223813/photos/?ref=page_internal&tab=album")
 }
 
 document.querySelector(".my-computer").ondblclick = function () {
